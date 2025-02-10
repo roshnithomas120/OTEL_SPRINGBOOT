@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="otel.example.Sample.SampleApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-10T05:46:45" hostname="Roshnis-MacBook-Pro.local" time="0.75">
+  <properties/>
+  <testcase name="contextLoads()" classname="otel.example.Sample.SampleApplicationTests" time="0.75"/>
+  <system-out><![CDATA[11:16:43.883 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [otel.example.Sample.SampleApplicationTests]: SampleApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:16:43.975 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration otel.example.Sample.SampleApplication for test class otel.example.Sample.SampleApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-02-10T11:16:44.295+05:30  INFO 37743 --- [Sample] [    Test worker] o.example.Sample.SampleApplicationTests  : Starting SampleApplicationTests using Java 17 with PID 37743 (started by roshnithomas in /Users/roshnithomas/Downloads/Sample)
+2025-02-10T11:16:44.297+05:30  INFO 37743 --- [Sample] [    Test worker] o.example.Sample.SampleApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-02-10T11:16:45.059+05:30  INFO 37743 --- [Sample] [    Test worker] o.example.Sample.SampleApplicationTests  : Started SampleApplicationTests in 0.969 seconds (process running for 1.856)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
